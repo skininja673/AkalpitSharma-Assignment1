@@ -216,7 +216,7 @@ Accent color: #8DD7E9
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-/* general  */
+/* GENERAL SET-UP */
 *,
 ul,
 h1,
@@ -262,7 +262,7 @@ a {
 
 /* ------------------------ */
 
-/* header styling */
+/* HEADER STYLING */
 header {
   background: url("./summit-assets/asset-1.jpg");
   min-height: 100vh;
@@ -294,7 +294,7 @@ header {
   font-size: 0.9rem;
 }
 
-/* social nav */
+/* SOCIAL-LINKS NAVIGATION */
 .social-nav {
   position: absolute;
   right: 40px;
@@ -304,7 +304,7 @@ header {
   padding: 15px;
   color: #215a6d;
 }
-/* h1 settings */
+/* <h1> SETTINGS */
 h1 {
   color: #fff;
   margin-top: 20%;
@@ -321,7 +321,7 @@ h1 span {
   line-height: 90px;
 }
 
-/* styling about section of main */
+/* ABOUT SECTION*/
 .about {
   padding: 50px 0px;
 }
@@ -358,7 +358,7 @@ h1 span {
   margin-top: 20px;
 }
 
-/* styling blog section of main section*/
+/* BLOG SECTION*/
 .blog {
   display: flex;
   flex-wrap: wrap;
@@ -377,7 +377,6 @@ h1 span {
   align-items: center;
 }
 .text-container {
-  /* border: 2px solid goldenrod; */
   width: 50%;
   height: 100%;
   padding: 70px;
@@ -397,7 +396,7 @@ h1 span {
   line-height: 1.45rem;
 }
 
-/* middle navigation */
+/* MIDDLE PAGE NAVIGATION, gallery/about/contact */
 .mid-page-links {
   background-color: #215a6d;
   padding: 100px 0px;
@@ -407,12 +406,10 @@ h1 span {
   justify-content: space-around;
 }
 .links li {
-  /* border: 2px solid green; */
   text-align: center;
 }
 .links i,
 .links a {
-  /* border: 2px solid magenta; */
   color: #f6f6f6;
   display: block;
   font-size: 1.2rem;
@@ -420,17 +417,15 @@ h1 span {
   padding: 15px;
 }
 
-/* about me */
+/* ABOUT ME */
 .about-me {
   padding: 50px 0px;
   background-color: #f6f6f6;
 }
 .about-me .wrapper {
-  /* border: 3px solid black; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   /* padding: 20px 0px; */
 }
 .about-me .my-pic-container {
@@ -439,7 +434,6 @@ h1 span {
   width: calc(30% - 40px);
 }
 .about-me .my-description {
-  /* border: 2px solid goldenrod; */
   width: calc(70% - 40px);
   display: flex;
   flex-direction: column;
@@ -447,13 +441,12 @@ h1 span {
   margin-left: 40px;
 }
 .my-description a {
-  /* border: 2px solid green; */
   padding: 10px 20px;
   background-color: #8dd7e9;
   align-self: flex-start;
 }
 
-/* gallery */
+/* GALLERY SECTION - 3 pics*/
 .three-pics {
   /* border: 2px solid red; */
   padding: 100px 0px;
@@ -466,7 +459,7 @@ h1 span {
   margin: 0px 10px;
 }
 
-/* footer */
+/* FOOTER SECTION */
 footer {
   background: #215a6d;
   padding: 75px 0; /*syou give this when you footer is taller IMP*/
@@ -563,6 +556,8 @@ address p {
   font-size: 0.7rem;
   padding: 5px 0px;
 }
+
+/* THE LAST STRIPE AFTER FOOTER copyright 2018 hacker you */
 .bottom-line {
   background-color: #104e5f;
   padding: 10px 0px;
@@ -572,7 +567,7 @@ address p {
   font-size: 0.7rem;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------- */
+/* MEDIA-QUERIES */
 @media (max-width: 1600px) {
   .txt-2 h3 {
     font-size: 1rem;
@@ -638,31 +633,25 @@ address p {
   }
   /* -------------------------------------- */
   footer .wrapper {
-    /* border: 2px solid red; */
     flex-direction: column;
     align-items: center;
   }
 
   footer .form {
-    /* border: 2px solid green; */
     padding-right: 0px;
     width: 100%;
     align-items: center;
     flex-direction: column;
   }
   .form form {
-    /* border: 4px solid yellow; */
-    /* display: flex; */
     flex-direction: column;
     /* padding: 40px 0px; */
   }
   .form form input {
-    /* border: 2px solid magenta; */
     width: 100%;
     min-width: 50%;
   }
   .form form button {
-    /* border: 2px solid purple; */
     padding: 10px 0px;
   }
   ::placeholder {
@@ -678,7 +667,6 @@ address p {
     width: 100%;
   }
   .three-pics li {
-    /* border: 2px solid magenta; */
     margin: 0px;
     width: calc(100% / 2);
   }
